@@ -56,8 +56,7 @@ Chaque section propose des sous-menus pour ajouter, afficher, rechercher, suppri
 - `util.c`, `util.h` : fonctions utilitaires partagées, comme le nettoyage de l'écran.
 - `structures.h` : définitions des structures `Joueur`, `Club`, `Competition`, `Date`, `Adresse`.
 - `Manuel_utilisateur.md` : guide d'utilisation de l'application.
-- `obj/` : dossier réservé aux fichiers objets générés.
-- `src/` et `include/` : dossiers pouvant contenir des sources et en-têtes supplémentaires.
+
 
 ## Remarques
 
