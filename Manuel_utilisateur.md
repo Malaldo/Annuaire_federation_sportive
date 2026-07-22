@@ -308,7 +308,6 @@ Cette option trie les participants par points.
 
 ## Recommandations
 
-- Saisissez les dates au format `jj mm aaaa`.
 - Respectez les identifiants pour rechercher, supprimer ou mettre à jour des éléments.
 - Après un tri, utilisez l'option d'affichage correspondante pour vérifier que l'ordre est correct.
 
