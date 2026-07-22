@@ -110,6 +110,27 @@ Les objectifs du projet sont :
 	\item Mettre en pratique les concepts d'algorithmique et de structures de données.
 \end{itemize}
 
+\chapter{Bibliothèques utilisées}
+Au cours de l'implémentation de l'application, plusieurs bibliothèques ont été utilisées : 
+
+\section{Windows.h}
+Cette bibliothèque a servi à l'utilisation des  fonctions propres à Windows, comme SetConsoleOutputCP() (pour permettre d'afficher les caractères UTF-8), SetConsoleCP() (pour permettre de lire les caractères UTF-8), Sleep(), ou modifier le titre de la console avec system() ou changer la couleur de police dans les menus.
+\section{conio.h}
+Cette bibliothèque a servi à bloquer la saisie utilisateur tant que la touche entrée n'est pas appuyé pour continuer.
+\section{stdlib.h}
+Cette bibliothèque a servi à gérer la mémoire et les fonctions système, par exemple malloc, free, realloc, system.
+\section{string.h}
+Cette bibliothèque a servi à manipuler les chaînes de caractères avec les fonctions strcmp() et stcpy().
+\section{locale.h}
+Cette bibliothèque a servi à gérer la langue et l'encodage, notamment pour afficher correctement les caractères accentués avec la fonction setlocale().
+\section{joueur.h}
+C'est une en-tête personnalisée pour les structures et fonctions liées aux joueurs.
+\section{club.h}
+C'est une en-tête personnalisée pour les structures et fonctions liées aux clubs.
+\section{competition.h}
+C'est une en-tête personnalisée pour les structures et fonctions liées aux compétitions.
+\section{util.h}
+C'est une en-tête personnalisée pour les fonctions utilitaires du programme, comme effacer l’écran, nettoyer le tampon ou afficher des messages.
 \chapter{Architecture}
 \section{Vue d'ensemble}
 L'application repose sur une architecture modulaire en couches :
